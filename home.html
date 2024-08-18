@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Casino</title>
+    <link rel="stylesheet" href="home.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body background="back2.png">
+
+    <header>
+        <h1>SCRUMSINO</h1>
+        <img src="logo1.png" alt="Logo" />
+    </header>
+    <!-- Dit is de navbar waar alle games mee zijn gelinkt -->
+    <nav>
+        <a class="selector" href="kop-of-munt.php">Kop of munt</a>
+        <a class="selector" href="steen-papier-schaar.php">Steen, papier schaar</a>
+        <a class="selector" href="galgje.php">Galgje</a>
+        <a class="selector" href="boter-kaas-eieren.php">Boter, kaas en eieren</a>
+        <a class="selector" href="quiz.php">Quiz</a>
+    </nav>
+
+    <main>
+        <!-- dit zijn de gametiles die linken met de php bestanden -->
+        <article class="game-tile" onclick="location.href='kop-of-munt.php';">
+            <img src="kop-of-munt.jpg" alt="">
+            <h2>Kop of munt</h2>
+        </article>
+
+        <article class="game-tile" onclick="location.href='steen-papier-schaar.php';">
+            <img src="steen-papier-schaar.jpg" alt="">
+            <h2>Steen, Papier, Schaar</h2>
+        </article>
+
+        <article class="game-tile" onclick="location.href='galgje.php';">
+            <img src="galgje-image.jpg" alt="">
+            <h2>Galgje</h2>
+        </article>
+
+        <article class="game-tile" onclick="location.href='boter-kaas-eieren.php';">
+            <img src="boter-kaas-eieren.png" alt="">
+            <h2>Boter, kaas en eieren</h2>
+        </article>
+
+        <article class="game-tile" onclick="location.href='quiz.php';">
+            <img src="quiz-image.jpg" alt="">
+            <h2>Quiz</h2>
+        </article>
+        
+    <!-- Dit is alle tekst in de aside  -->
+        <aside>
+            <h3>Welkom bij onze Scrumsino</h3>
+            <p>Veel plezier met het gebruiken van</p>
+            <p>onze website Scrumsino!</p>
+        </aside>
+    </main>
+
+    <footer>
+        &copy; 2024 Casino.Gemaakt door: Abdi Hassan, Milan Waagmeester, Ference
+        Eichenberger, Vaishnavi Thambippillai, and Tinoe Boom
+    </footer>
+</body>
+
+</html>

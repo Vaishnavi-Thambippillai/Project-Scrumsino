@@ -1,0 +1,151 @@
+.hidden {
+  display: none;
+}
+
+body {
+  background-image: url("foto.png");
+  background-size: cover;
+
+}
+.p{
+
+}
+
+h2{
+color:white;
+}
+header {
+  background: radial-gradient(rgb(255, 217, 0),
+  rgb(190, 162, 1),
+  rgb(159, 135, 0));
+  text-align: center;
+  padding: 10px;
+  position: relative;
+}
+
+header img {
+  position: absolute;
+  top: 15px;
+  left: 1px;
+  height: 80px;
+  background-color: transparent;
+
+}
+
+header>h1 {
+  color: white;
+  text-shadow: 2px 2px #000000;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  background-color: black;
+  color: #fff;
+  padding: 10px;
+  padding: 1px;
+  margin: auto;
+}
+nav a {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px;
+  margin: 0 5px;
+}
+
+aside {
+  width: 25%;
+  backdrop-filter: blur(25px);
+  padding: 10px;
+  color: #f2f2f2;
+  position: absolute;
+  right: 0;
+  font-size:14px;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+
+}
+
+body {
+    font-family: 'Arial';
+    background-color: white;
+  }
+  
+  h5 {
+    color: white;
+    font-size: 24px;
+    margin-bottom: 20px;
+    display:flex;
+    justify-content: center;
+  }
+  
+  
+  form {
+    max-width: 600px;
+    margin: 0 auto;
+    color: white;
+    backdrop-filter: blur(20px);
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-size: larger;
+  }
+  
+  p , h2{
+    color:white;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  input[type="radio"] {
+    margin-right: 5px;
+  }
+  
+  input[type="submit"] {
+    background: linear-gradient(to right, rgb(255, 215, 0), rgb(190, 162, 1), rgb(159, 135, 0));
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background: linear-gradient(to right, rgb(255, 215, 0), rgb(190, 162, 1), rgb(159, 135, 0));
+  }
+
+  button {
+    background: linear-gradient(to right, rgb(255, 215, 0), rgb(190, 162, 1), rgb(159, 135, 0));
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: 0.3s ease;
+    margin-top: -90px;
+  
+  }
+  
+  button:hover {
+    background: linear-gradient(to right, rgb(248, 224, 11), rgb(176, 150, 1), rgb(165, 141, 2));
+  }
+  
+  footer {
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  /*end quiz*/

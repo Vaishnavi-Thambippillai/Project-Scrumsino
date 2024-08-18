@@ -1,0 +1,199 @@
+body {
+  height: 100vh;
+  margin: 0;
+  font-family: "Arial", sans-serif;
+  background-color: #f2f2f2;
+  background-image: url(casino.jpg);
+  background-size: cover;
+  color: black;
+}
+
+/*de header*/
+header {
+  background: radial-gradient(#ffd900, #b29701, #877301);
+  text-align: center;
+  padding: 10px;
+  position: relative;
+}
+
+header img {
+  position: absolute;
+  top: 15px;
+  left: 1px;
+  height: 80px;
+  background-color: transparent;
+}
+
+header {
+  color: white;
+  text-shadow: 2px 2px #000000;
+}
+/* einde header*/
+
+/*navigatie*/
+nav {
+  display: flex;
+  justify-content: space-around;
+  background-color: black;
+  color: #fff;
+  padding: 10px;
+  padding: 1px;
+  margin: auto;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px;
+  margin: 0 5px;
+}
+/*einde navigatie*/
+
+/* main content*/
+main {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px;
+}
+
+
+aside {
+  width: 25%;
+  backdrop-filter: blur(25px);
+  padding: 10px;
+  color: #f2f2f2;
+  position: absolute;
+  top: 20%;
+  right: 0;
+}
+
+button {
+  background: linear-gradient(
+    to right,
+    rgb(255, 215, 0),
+    rgb(190, 162, 1),
+    rgb(159, 135, 0)
+  );
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: 0.3s ease;
+  margin-top: -20px;
+}
+
+button:hover {
+  background: linear-gradient(
+    to right,
+    rgb(248, 224, 11),
+    rgb(176, 150, 1),
+    rgb(165, 141, 2)
+  );
+}
+
+/*mian content*/
+
+/*middel content*/
+h1 {
+  margin-top: 0%;
+  text-align: center;
+  color: white;
+}
+
+h2 {
+  color: white;
+  text-align: center;
+}
+
+.content {
+  text-align: center;
+}
+
+#keyboard {
+  backdrop-filter: blur(40px);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  margin: 1% 27% 1% 27%;
+  margin-bottom: 0.5%;
+}
+
+img#fotos {
+  max-width: 50%;
+  margin-bottom: 20px;
+  background-color: transparent;
+}
+
+.content_menu p {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: black;
+}
+form {
+  display: inline-block;
+}
+
+input[type="submit"] {
+  width: 30px;
+  height: 30px;
+  margin: 5px;
+  font-size: 16px;
+  background-color: #59afe2;
+  color: black;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+/* einde middel content*/
+
+/*popup conten*/
+.popup {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 999;
+}
+
+.popup a {
+  display: block;
+  margin-top: 20px;
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+}
+/*einde popup content*/
+
+/* score van gaglje */
+.scoren {
+  margin-top: 2.5%;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  color: #ffffff;
+}
+
+.scoren p {
+  margin: 20px;
+  font-size: 16px;
+  color: black;
+}
+/*score van galgje*/
+
+footer {
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+ position: fixed;
+  bottom: 0%;
+  width: 100%;
+}
